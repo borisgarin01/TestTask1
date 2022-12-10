@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Car>
+<html>
+<body>
+    <a asp-controller="Cars" asp-action="Create">Create</a>
+    <form asp-controller="Cars" asp-action="Index" method="get">
+        @foreach (Car car in Model)
+        {
+            <div>
+                <h4>@car.Brand</h4>
+                <h4>@car.Category.Name</h4>
+                <h4>@car.Model</h4>
+                <h4>@car.Number</h4>
+                <h4>@car.ReleaseYear</h4>
+                <a asp-action="Get" asp-route-id="@car.Id">Get</a>
+                <a asp-action="Update" asp-route-id="@car.Id">Update</a>
+                <a asp-action="Delete" asp-route-id="@car.Id">Delete</a>
+            </div>
+            <hr />
+        }
+    </form>
+</body>
+</html>

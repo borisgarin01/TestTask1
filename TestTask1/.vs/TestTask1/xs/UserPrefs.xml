@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{C6001D7D-F3D2-4690-B782-A98010ACDBEC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repositories/Classes/CarsRepository.cs">
+    <Files>
+      <File FileName="Repositories/Classes/CarsRepository.cs" Line="68" Column="1" />
+      <File FileName="Controllers/CarsController.cs" />
+      <File FileName="Repositories/Interfaces/Derived/ICarsRepository.cs" />
+      <File FileName="Repositories/Classes/CategoriesRepository.cs" />
+      <File FileName="Views/Cars/Get.cshtml" />
+      <File FileName="Views/Cars/Index.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestTask1" expanded="True">
+            <Node name="TestTask1" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositories" expanded="True">
+                <Node name="Classes" expanded="True">
+                  <Node name="CarsRepository.cs" selected="True" />
+                </Node>
+                <Node name="Interfaces" expanded="True">
+                  <Node name="Base" expanded="True" />
+                  <Node name="Derived" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Cars" expanded="True" />
+                <Node name="Categories" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TestTask1 PreferredExecutionTarget="/Applications/Yandex.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

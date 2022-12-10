@@ -1,0 +1,16 @@
+﻿@model Car
+<html>
+<body>
+    <form asp-controller="Cars" asp-action="Update" method="post">
+        <h4>Brand:  </h4><input asp-for="Brand" value="@Model.Brand" /><br />
+        <select asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Categories, "Id","Name" ))">
+            <option value="">--Select--</option>
+        </select>
+        <h4>Model:  </h4><input asp-for="Model" value="@Model.Model" /><br />
+        <h4>Number:  </h4><input asp-for="Number" value="@Model.Number" /><br />
+        <h4>ReleaseYear:  </h4><input asp-for="ReleaseYear" value="@Model.ReleaseYear" /><br />
+
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>

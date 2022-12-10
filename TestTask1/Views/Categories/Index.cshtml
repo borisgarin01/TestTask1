@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Category>
+<html>
+<body>
+    <a asp-controller="Categories" asp-action="Create">Create</a>
+    <form asp-controller="Categories" asp-action="Index" method="get">
+        @foreach (Category category in Model)
+        {
+            <div>
+                <h4>@category.Id</h4>
+                <h4>@category.Name</h4>
+                <a asp-action="Get" asp-route-id="@category.Id">Get</a>
+                <a asp-action="Update" asp-route-id="@category.Id">Update</a>
+                <a asp-action="Delete" asp-route-id="@category.Id">Delete</a>
+            </div>
+            <hr />
+        }
+    </form>
+</body>
+</html>

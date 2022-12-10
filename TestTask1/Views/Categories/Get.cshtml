@@ -1,0 +1,12 @@
+﻿@model Category
+<html>
+<body>
+    <a asp-controller="Categories" asp-action="Create">Create new</a>
+    <a asp-controller="Categories" asp-action="Index">Get all</a>
+
+    <h4>@Model.Name</h4>
+    <a asp-action="Update" asp-route-id="@Model.Id">Update</a>
+    <a asp-action="Delete" asp-route-id="@Model.Id">Delete</a>
+    <hr />
+</body>
+</html>

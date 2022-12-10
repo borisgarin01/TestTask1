@@ -1,0 +1,9 @@
+﻿@model Category
+<html>
+<body>
+    <form asp-controller="Categories" asp-action="Update" method="post">
+        <input asp-for="Name" value="@Model.Name" /><br />
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
